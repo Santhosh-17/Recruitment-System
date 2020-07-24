@@ -190,7 +190,7 @@ public class RegisterFrame2  extends JFrame {
             }
         });
          
-        l9.setIcon(new ImageIcon("C:\\Users\\santh\\Downloads\\bgg2.jpg")); 
+        l9.setIcon(new ImageIcon("E:\\Eclipse\\workspace\\MiniProject2\\src\\mp2\\bgg2.jpg")); 
         add(l9);
         l9.setBounds(0, -40, 970, 710);
         
@@ -239,7 +239,7 @@ class Rconnect1
 		//    rf = new RegisterFrame();
 		    
 			Class.forName("oracle.jdbc.driver.OracleDriver");
-			con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","System","Santhosh2001");
+			con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","System","Santhosh22");
 			st = con.createStatement();
 			ResultSet rs = st.executeQuery("select * from admintable");
 			

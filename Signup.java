@@ -1,7 +1,9 @@
 package mp2;
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
+import java.net.URL;
 @SuppressWarnings("serial")
 public class Signup extends JFrame {
 	
@@ -69,7 +71,9 @@ public class Signup extends JFrame {
       
         p2.add(l2);
         l2.setBounds(170, 20, 95, 95);
-        l2.setIcon(new ImageIcon("C:\\Users\\santh\\Downloads\\nc.png"));  
+       
+        
+        l2.setIcon(new ImageIcon("E:\\Eclipse\\workspace\\MiniProject2\\src\\mp2\\nc.png"));  
         
        
 
@@ -113,12 +117,12 @@ public class Signup extends JFrame {
         
         l1.setBackground(new Color(255, 255, 255));
         l1.setForeground(new Color(0, 0, 204));
-        l1.setCursor(new Cursor(java.awt.Cursor.DEFAULT_CURSOR));
+        l1.setCursor(new Cursor(Cursor.DEFAULT_CURSOR));
         l1.setOpaque(true);
         
 
-        p2.setBackground(new java.awt.Color(255, 255, 255));
-        p2.setForeground(new java.awt.Color(255, 255, 255));
+        p2.setBackground(new Color(255, 255, 255));
+        p2.setForeground(new Color(255, 255, 255));
        
         getContentPane().setBackground(Color.BLACK);
         
@@ -181,7 +185,7 @@ public class Signup extends JFrame {
         p2.setBounds(0, 80, 790, 410);
         
         
-        l5.setIcon(new ImageIcon("C:\\Users\\santh\\Downloads\\bgg2.jpg"));
+        l5.setIcon(new ImageIcon("E:\\Eclipse\\workspace\\MiniProject2\\src\\mp2\\bgg2.jpg"));
         p2.add(l5);
         l5.setBounds(0, -10, 790, 430);
         

@@ -16,7 +16,7 @@ public class Connect {
 			table = "admintable";
 		}
 		Class.forName("oracle.jdbc.driver.OracleDriver");
-		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","System","Santhosh2001");
+		Connection con = DriverManager.getConnection("jdbc:oracle:thin:@localhost:1521:orcl","System","Santhosh22");
 		Statement st = con.createStatement();
 		ResultSet rs = st.executeQuery("select * from "+ table);
 		System.out.println(s1+" "+s2);
